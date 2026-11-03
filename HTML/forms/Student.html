@@ -13,16 +13,16 @@
         <fieldset>
             <legend><h2>Student Form</h2></legend>
             <label>Student Name :</label>
-            <input type="text" placholder="Enter your name"><br><br>
+            <input type="text" placeholder="Enter your name" ><br><br>
 
             <label>Father Name :</label>
             <input type="text" placeholder="Enter your Father Name"><br><br>
 
             <label>Date Of Brith</label>
-            <input type="date" placeholder="Enter your DOB"><br><br>
+            <input type="date" placeholder="Enter your DOB" ><br><br>
 
             <label>Phone Number :</label>
-            <input type="tel"><br><br>
+            <input type="number" maxlength="10" placeholder="Enter your number"><br><br>
 
            <label>Email Id :</label>
             <input type="email" placeholder="Enter your mail"><br><br>
@@ -36,32 +36,35 @@
 
             <label>Course :</label>
             <select>
-                <option>select cousre</option>
+                <optgroup label="B.Tech">
+                <option selected disabled hidden>select cousre</option>
                 <option>ECE</option>
                 <option>CSE</option>
                 <option>IT</option>
                 <option>AIML</option>
                 <option>Civil</option>
                 <option>EEE</option>
+                </optgroup>
             </select><br><br>
 
             <lable>Year of Study :</lable>
               <select>
-                <option>select Year</option>
+                 <optgroup label="B.Tech">
+                <option selected disabled hidden>select Year </option>
                 <option>1st Year</option>
                 <option>2nd Year</option>
                 <option>3rd Year</option>
                 <option>4th Year</option>   
+                 </optgroup>
             </select><br><br>
 
             <lable>Gender :</lable><br>
-            <input type="radio">Male
-            <input type="radio">Female
-            <input type="radio">Other<br>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Other<br>
             <label></label>
             <input type="radio">I confirm that the above detalis are correct.<br>
             <button>Submit</button>
-
         </fieldset>
 
     </table>
