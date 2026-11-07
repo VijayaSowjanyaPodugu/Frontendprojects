@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Style</title>
+</head>
+
+<style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .box {
+            padding: 20px 10px;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius: 12px;
+            background-color: white;
+        }
+
+        .solid {
+            border: 4px solid red;
+            box-shadow: 0px 4px 6px gray;
+        }
+
+        .dashed {
+            border: 4px dashed blue;
+            background-color: #e4eaff;
+        }
+
+        .dotted {
+            border: 4px dotted green;
+            background-color: #e5ffe5;
+        }
+
+        .double {
+            border: 4px double purple;
+            background-color: #f9e9ff;
+        }
+
+        .groove {
+            border: 6px groove orange;
+            background-color: #fff5d5;
+        }
+
+        .ridge {
+            border: 6px ridge brown;
+            background-color: #ffe9e5;
+        }
+
+        .inset {
+            border: 6px inset teal;
+            background-color: #d9ffff;
+        }
+
+        .outset {
+            border: 6px outset crimson;
+            background-color: #ffe5e9;
+        }
+
+        .none {
+            border: none;
+            background-color: #e5e5e5;
+            box-shadow: 0px 4px 8px lightgray;
+        }
+
+        .hidden {
+            border: 4px hidden blue;
+            background-color: #e3e9ff;
+            box-shadow: 0px 4px 8px lightgray;
+        }
+
+        .box:nth-child(9) {
+            grid-column: 2;
+        }
+    </style>
+
+<body>
+    <div>
+        <nav>
+            <a href="profile.html">Profile card |</a>&nbsp; &nbsp;
+            <a href="boxsizing.html">Box sizing comparison |</a>&nbsp; &nbsp;
+            <a href="studentId.html">Student ID card |</a>&nbsp;
+            <a href="padding.html">Padding Comparison |</a>&nbsp; &nbsp;
+            <a href="margin.html">Margin Practice |</a>&nbsp; &nbsp;
+            <a href="borderStyle.html">CSS border Style |</a>&nbsp; &nbsp;
+            <a href="borderRadius.html">Border Radius Playground </a>&nbsp; &nbsp;
+        </nav>
+    </div>
+
+
+
+
+     
+
+<body>
+
+    <h2>CSS Border Styles</h2>
+
+    <div class="container">
+
+        <div class="box solid">Solid Border</div>
+
+        <div class="box dashed">Dashed Border</div>
+
+        <div class="box dotted">Dotted Border</div>
+
+        <div class="box double">Double Border</div>
+
+        <div class="box groove">Groove Border</div>
+
+        <div class="box ridge">Ridge Border</div>
+
+        <div class="box inset">Inset Border</div>
+
+        <div class="box outset">Outset Border</div>
+
+        <div class="box none">None Border</div>
+
+        <div class="box hidden">Hidden Border</div>
+
+    </div>
+
+</body>
+</html>
