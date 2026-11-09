@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeat Gallaery</title>
+</head>
+
+<style>
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+   
+
+    .box {
+      
+        height: 210px;
+        width: 280px;
+    
+        border: 5px solid black;
+        background-image: url("./asset/avengers.jpg");
+        background-size: 70px 50px;
+    }
+
+    .Repeat {
+
+        background-repeat: repeat;
+       
+    }
+
+    .Repeat-X {
+        background-repeat: repeat-x;
+
+    }
+
+    .Repeat-y{
+        background-repeat: repeat-y;
+    }
+
+    .No_Repeat {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .Round {
+        background-repeat: round;
+    }
+
+    .Space{
+        background-repeat: space;
+    }
+</style>
+
+
+
+
+<body>
+    <div>
+        <h1>Background Repeat Gallery</h1>
+    </div>
+    <div class="container">
+
+        <div class="item">
+            <div class="box Repeat"></div>
+            <h3>Repeat</h3>
+        </div>
+
+
+        <div class="item">
+            <div class="box Repeat-X"></div>
+            <h3>Repeat-X</h3>
+
+        </div>
+
+        <div class="item">
+            <div class="box Repeat-y"></div>
+            <h3>Repeat-Y</h3>
+        </div>
+
+        <div class="item">
+            <div class="box No_Repeat"></div>
+            <h3>No Repeat</h3>
+        </div>
+
+        <div class="item">
+            <div class="box Round"></div>
+            <h3>Round</h3>
+        </div>
+
+        <div class="item">
+            <div class="box Space"></div>
+            <h3>Space</h3>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 35px;
+        text-align: center;
+    }
+
+   
+
+    .box {
+        width: 200px;
+        height: 250px;
+        border: 4px solid black;
+        background-image: url("./asset/groot.jpg");
+        background-size:100px 80px;
+         background-repeat: no-repeat;
+    }
+
+    .LeftTop {
+       
+       
+      background-position: left top;
+    }
+
+    .Center{
+        background-position: center ;
+    }
+    .LeftCenter{
+        background-position: cover;
+    }
+    .RigthCenter{
+        background-position: left center;
+    }
+    .CenterButtom{
+        background-position: right center;
+        
+    }
+    .RigthButtom{
+        background-position: right buttom;
+
+    }
+
+</style>
+<body>
+
+
+<body>
+    <div>
+        <center>
+            <h1>CSS BackGround Size Demo</h1>
+        </center>
+    </div>
+    <div class="container">
+
+        <div class="item">
+            <div class="box LeftTop"></div>
+            <h3>Left Top</h3>
+        </div>
+
+        <div class="item">
+            <div class="box Center"></div>
+            <h3>center</h3>
+        </div>
+
+        <div class="item">
+            <div class="box LeftCenter"></div>
+            <h3>Left Center</h3>
+        </div>
+
+          <div class="item">
+            <div class="box RigthCenter"></div>
+            <h3>Rigth Center</h3>
+        </div>
+
+        <div class="item">
+            <div class="box CenterButtom"></div>
+            <h3>Center Button</h3>
+        </div>
+
+          <div class="item">
+            <div class="box RigthButtom"></div>
+            <h3>Rigth Center</h3>
+        </div>
+
+        
+
+
+
+    </div>
+</body>
+</html>

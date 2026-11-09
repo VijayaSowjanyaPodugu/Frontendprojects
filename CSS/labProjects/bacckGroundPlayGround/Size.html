@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackGround Size</title>
+</head>
+
+<style>
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        gap: 35px;
+    }
+
+   
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border: 4px solid black;
+        background-image: url("./asset/spider.jpg");
+      
+        background-repeat: no-repeat;
+      
+    }
+
+    .auto {
+
+        background-size: auto;
+    }
+
+    .contain {
+        background-size: contain;
+    }
+
+    .cover {
+        background-size: cover;
+    }
+
+    .value {
+        background-size: 250px 180px;
+
+    }
+</style>
+
+<body>
+    <div>
+        <center>
+            <h1>CSS BackGround Size Demo</h1>
+        </center>
+    </div>
+    <div class="container">
+
+        <div class="item">
+            <div class="box auto"></div>
+            <h3>background-size :auto</h3>
+        </div>
+
+        <div class="item">
+            <div class="box contain"></div>
+            <h3>background-size :contain</h3>
+        </div>
+
+        <div class="item">
+            <div class="box cover"></div>
+            <h3>background-size :cover</h3>
+        </div>
+
+        <div class="item">
+            <div class="box value"></div>
+            <h3>background-size :250px 180px</h3>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
