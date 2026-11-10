@@ -1,0 +1,33 @@
+form{
+    border: solid;
+    padding: 20px;
+}
+
+input{
+    width:100;
+
+}
+
+input[type="radio"]{
+    width:10px;
+}
+
+
+
+
+
+
+
+[type]{
+    color:red;
+
+}
+
+ul[type]{
+    background-color: blue;
+}
+
+ul[type="disc"]{
+    border: 5px solid black;
+
+}
