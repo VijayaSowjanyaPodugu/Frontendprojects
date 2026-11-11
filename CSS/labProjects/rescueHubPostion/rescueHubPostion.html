@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescue Hub</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+    }
+
+    .header {
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: rgb(183, 25, 25);
+        
+    }
+
+    .navbar {
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        height: 60px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .navbar:hover {
+        color: white;
+
+    }
+
+    .assistance {
+        background-color: rgb(244, 221, 221);
+        padding: 50px;
+        text-align: center;
+    }
+
+    .assistance h1 {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .assistance p {
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .assistance button {
+        background-color: rgb(183, 25, 25);
+        height: 50px;
+        width: 180px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .assistance button:hover {
+        background-color: rgb(110, 31, 31);
+        ;
+    }
+
+    .services h1 {
+        text-align: center;
+
+    }
+
+    .batch {
+        position: absolute;
+        top: 30px;
+        left: 160px;
+        border: 2px solid  rgb(183, 25, 25);
+        background-color:  rgb(183, 25, 25);
+        color: white;
+        border-radius: 20px;
+        padding:2px;
+       
+
+    }
+
+    .card {
+        position: relative;
+
+        border: 2px solid rgb(244, 240, 234);
+        width: 250px;
+        height: 270px;
+        margin: 20px;
+        text-align: center;
+        padding-top: 40px;
+        background-color: rgb(244, 240, 234);
+        border-radius: 20px;
+    }
+
+    .card button {
+        height: 40px;
+        width: 100px;
+        background-color: rgb(183, 25, 25);
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+
+    }
+
+    .card button:hover {
+        background-color: rgb(110, 31, 31);
+    }
+
+    .contacts {
+        padding: 30px;
+        background-color: antiquewhite;
+    }
+
+    .contacts h2 {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .number {
+        height: 200px;
+        width: 350px;
+        background-color: aliceblue;
+        margin: auto;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .number p {
+        padding: 10px;
+    }
+
+    .fixed {
+        position: fixed;
+        height: 20px;
+        width:20px;
+        background-color: red;
+        border-radius: 100%;
+        
+    }
+
+    footer p {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+
+
+<body>
+    <main>
+        <div class="header">
+            <h1>RescueHub</h1>
+            <p>Emergency Assistance at Your Fingertips</p>
+        </div>
+
+        <div class="navbar">
+            <a href="#home" target="_self">Home</a>
+            <a href="#Emergence" target="_self">Emergency</a>
+            <a href="#hospitals" target="_self">Hospitals</a>
+            <a href="#contacts" target="_self">Contacts</a>
+        </div>
+
+        <div id="home" class="assistance">
+            <h1>Emergency Assistance</h1>
+            <p>Stay calm. Get the right help at the right time.</p>
+            <button>Get Emergency Help</button>
+
+        </div>
+
+
+
+        <div id="Emergence" class="services">
+            <h1>Emergency Services</h1>
+            <div class="card">
+                <h1>🚑</h1>
+                <h2>Ambulance</h2>
+                <p>Get immediate medical transportation.</p>
+                <button>Call Ambulance</button>
+                <p class="batch">24/7</p>
+
+            </div>
+
+            <div class="card">
+                <h1>🚓</h1>
+                <h2>Police</h2>
+                <p>Contact the police for immediate safety and security assistance.</p>
+                <button>Contact Police</button>
+                <p class="batch">URGENT</p>
+            </div>
+
+            <div class="card">
+                <h1>🚒</h1>
+                <h2>Fire Service</h2>
+                <p>Get quick assistance during fire and rescue emergencies.</p>
+                <button>Call Fire Service</button>
+                <p class="batch">URGENT</p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div id="contacts" class="contacts">
+            <h2>📞 Emergency Contacts</h2>
+            <div class="number">
+                <p>🚓 Police: <b> 100</b></p>
+                <hr>
+                <p>🚑 Ambulance:<b> 108</b></p>
+                <hr>
+                <p> 🚒 Fire Service:<b> 101</b></p>
+                <hr>
+                <p>🆘 Emergency:<b> 112</b></p>
+            </div>
+        </div>
+
+        <div class="fixed">
+            <p>🚨 SOS</p>
+        </div>
+
+
+
+
+        <footer>
+            <p>© 2026 RescueHub | Emergency Assistanc</p>
+        </footer>
+    </main>
+</body>
+
+</html>
