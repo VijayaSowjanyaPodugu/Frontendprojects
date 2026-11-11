@@ -1,11 +1,221 @@
-
-table{
-    width:300px;
-    height: 300px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.th1{
-    height: 20px;
-    width:20px;
-    border-radius: 10px;
 
+body {
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.header {
+    width: 100%;
+
+}
+
+.navbar {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 25px 0px;
+
+}
+
+.navbar td:hover {
+
+    color: rgb(122, 66, 6);
+    font-size: 20px;
+}
+
+th img {
+
+    border-radius: 90%;
+}
+
+.tdlogin {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(229, 166, 83);
+    color: white;
+    border: 1px solid rgb(218, 161, 87);
+    border-radius: 5px;
+
+}
+
+.tdlogin:hover {
+    background-color: white;
+    color: rgb(165, 106, 42);
+    border: 1px solid rgb(205, 171, 97);
+
+}
+
+.register {
+    padding: 10px 20px;
+    background-color: rgb(229, 166, 83);
+    color: white;
+    border: 1px solid rgb(218, 161, 87);
+    border-radius: 5px;
+}
+
+
+.register:hover {
+    background-color: white;
+    color: rgb(165, 106, 42);
+    border: 1px solid rgb(205, 171, 97);
+}
+.menu{
+    color:white;
+    font-size: 15px;
+    background-color: burlywood;
+    border: 2px solid rgb(158, 94, 10);
+
+}
+.menu:hover{
+    color:white;
+    background-color:  rgb(158, 94, 10);
+    border: 2px solid rgb(158, 94, 10);
+}
+
+.image-bg {
+    height: 700px;
+    width: 1500px;
+    background-image: url("./asset/coffeimg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-top: 300px
+}
+
+.image-bg p {
+    color: rgb(187, 135, 31);
+    font-family: initial;
+    font-size: 20px;
+}
+
+.image-bg h1 {
+    font-family: serif;
+    font-size: 80px;
+    color: beige;
+}
+
+.image-bg h2 {
+    font-family: cursive;
+    font-size: 50px;
+    color: beige;
+}
+
+button {
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.coffee-table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+
+.coffee-table td {
+    width: 33.33%;
+    padding: 10px;
+}
+
+
+.card {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 10px gray;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.card button {
+    background-color: rgb(93, 48, 3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: 3px solid rgb(211, 119, 27);
+}
+
+.card button:hover {
+    background-color: burlywood;
+}
+
+.offer-img {
+    height: 350px;
+    width: 1400px;
+    background-repeat: no-repeat;
+    background-image: url("./asset/espresso.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-top: 80px;
+    margin: auto;
+
+}
+.coffee-menu-h1{
+    color:chocolate;
+    padding:10px;
+    margin-top:20px;
+}
+
+.offer-img p {
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.offer-img h1 {
+    font-size: 45px;
+    color: bisque;
+}
+
+.offer-img h2 {
+    font-size: 50px;
+    color: bisque;
+}
+
+.footer {
+    padding:20px;
+    margin-top: 40px;
+  
+    padding-left: 30px;
+
+    background-color: rgb(111, 65, 3);
+    color:burlywood
+}
+.footer h2{
+    color:rgb(42, 24, 2)
+}
+.footer-table{
+    width: 100%;
+    border-spacing: 20px;
+    padding:20px;
+    text-align: left;
+}
+.footer hr{
+    border:2px solid burlywood;
+}
+
+.copyright {
+    background-color: rgb(111, 65, 3);
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:burlywood;
 }
