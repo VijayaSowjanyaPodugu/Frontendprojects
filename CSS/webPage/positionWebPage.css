@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+
+.header {
+
+    width: 100%;
+    border: 2px solid burlywood;
+    margin-bottom: 20px;
+
+}
+
+.navbar img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.nav-links {
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    width: 45%;
+    height: 30px;
+}
+
+.nav-links div {
+    position: absolute;
+    top: 10px;
+}
+
+.nav-links div:nth-child(1) {
+    left: 0%;
+}
+
+.nav-links div:nth-child(2) {
+    left: 25%;
+}
+
+.nav-links div:nth-child(3) {
+    left: 50%;
+}
+
+.nav-links div:nth-child(4) {
+    left: 75%;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.tdlogin {
+    position: absolute;
+    top: 20px;
+    right: 190px;
+}
+
+.register {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.image-bg {
+    height: 700px;
+    width: 1500px;
+    background-image: url("./asset/coffeimg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-top: 300px;
+
+}
+
+.image-bg p {
+    color: rgb(187, 135, 31);
+    font-family: initial;
+    font-size: 20px;
+}
+
+.image-bg h1 {
+    font-family: serif;
+    font-size: 80px;
+    color: beige;
+}
+
+.image-bg h2 {
+    font-family: cursive;
+    font-size: 50px;
+    color: beige;
+}
+
+button {
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.coffee-menu-h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: chocolate;
+    text-align: center;
+}
+
+.coffee-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.card {
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    top: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.card:nth-child(1) {
+    left: 2%;
+    top: 25px;
+}
+
+.card:nth-child(2) {
+    left: 35%;
+    top: 25px;
+}
+
+.card:nth-child(3) {
+    left: 68%;
+    top: 25px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.offer-img {
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./asset/espresso.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.offer-img p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.offer-img h1 {
+    font-size: 45px;
+    color: bisque;
+}
+
+.offer-img h2 {
+    font-size: 50px;
+    color: bisque;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+    background-color: rgb(111, 65, 3);
+    color: burlywood;
+    position: relative;
+}
+
+/* .footer h2 {
+    color: rgb(42, 24, 2);
+    position: absolute;
+    left: 20px;
+    top: 30px;
+} */
+
+.footer-section {
+    width: 23%;
+    position: absolute;
+    top: 40px;
+}
+
+.footer-section h2 {
+    color: rgb(42, 24, 2);
+    margin-bottom: 15px;
+}
+
+.footer-about {
+    width: 100%;
+    border-spacing: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-about {
+    left: 2%;
+}
+
+.footer-links {
+    left: 27%;
+}
+
+.footer-hours {
+    left: 52%;
+}
+
+.footer-contact {
+    left: 77%;
+}
+
+ hr {
+    width:100%;
+    border: 2px solid burlywood;
+   
+
+}
+
+.copyright {
+    background-color: rgb(111, 65, 3);
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: burlywood;
+}
+
+.card:hover {
+    border: 3px solid rgb(211, 119, 27);
+}
+
+.card button:hover {
+    background-color: burlywood;
+}
+.menu:hover{
+    color:white;
+    background-color:  rgb(158, 94, 10);
+    border: 2px solid rgb(158, 94, 10);
+}
+.register:hover {
+    background-color: white;
+    color: rgb(165, 106, 42);
+    border: 1px solid rgb(205, 171, 97);
+}
+.tdlogin:hover {
+    background-color: white;
+    color: rgb(165, 106, 42);
+    border: 1px solid rgb(205, 171, 97);
+
+}
+.nav-links:hover{
+  color: rgb(122, 66, 6);
+    font-size: 20px;
+}
