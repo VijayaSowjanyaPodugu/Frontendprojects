@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    section,
+    main {
+        width: 100%;
+        height: 150px;
+        border: solid;
+    }
+
+    p {
+        visibility: hidden;
+    }
+
+    section:hover p {
+        visibility: visible;
+    }
+
+    strong {
+        display: none;
+    }
+    main:hover strong{
+        display: block;
+    }
+</style>
+
+<body>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, molestiae. Beatae voluptates pariatur iure
+            natus unde iste, sint, facilis repellendus accusantium necessitatibus voluptatibus sapiente asperiores est.
+            Eaque vero molestiae esse.</p>
+        <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, molestiae. Beatae voluptates pariatur
+            iure
+            natus unde iste, sint, facilis repellendus accusantium necessitatibus voluptatibus sapiente asperiores est.
+            Eaque vero molestiae esse.</small>
+
+    </section>
+
+    <main>
+
+        <strong>Lorem ipsum dolor sit amet consectetur.</strong>
+        <br>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+
+
+    </main>
+</body>
+
+</html>
