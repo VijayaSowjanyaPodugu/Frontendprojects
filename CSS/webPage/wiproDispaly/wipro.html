@@ -18,34 +18,45 @@
         text-align: center;
         color: rgb(10, 225, 6);
         font-weight: bolder;
-
+        display: flex;
     }
 
     .container1 {
-        position: absolute;
-        top: 0;
-        left: 10px;
         height: 600px;
         width: 750px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-image: url("https://t4.ftcdn.net/jpg/20/36/57/29/360_F_2036572969_3JJgb4IJFeW3IG9HdWEMCbRnrGwdniUm.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .container2 {
-        position: absolute;
-        top: 0;
-        right: 10px;
-        height: 600px;
         width: 750px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWCeEx3wFRnewlIw_RZZC01MGkxhHwfoPIRXHtx4S2w&s=10");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
     }
 
+    .demo{
+        display: none;
+    }
+
+    .container1:hover .demo{
+        display: flex;
+    }
+    .container2:hover .demo{
+        display: flex;
+    }
     .detalis {
         padding: 150px;
         font-size: 18px;
@@ -60,47 +71,50 @@
         color: rgb(19, 19, 112);
         border-radius: 10px;
         font-weight: bolder;
-        margin-left:170px ;
+        margin-left: 170px;
     }
 
-    .container1 p {
+    /* .container1 p {
         display: none;
-       
+
     }
 
-    .container1:hover p{
+    .container1:hover p {
         display: block;
-       
+
     }
+
     .container1 button {
         display: none;
-        
-       
+
+
     }
 
-    .container1:hover button{
+    .container1:hover button {
         display: block;
-       
+
     }
+
     .container2 p {
         display: none;
-       
+
     }
 
-    .container2:hover p{
+    .container2:hover p {
         display: block;
-       
+
     }
+
     .container2 button {
         display: none;
-        
-       
+
+
     }
 
-    .container2:hover button{
+    .container2:hover button {
         display: block;
-       
-    }
+
+    } */
 </style>
 
 <body>
@@ -110,20 +124,22 @@
             <div class="detalis">
                 <h1>AI is Ready, but your Operation Model</h1>
                 <h1>and Change Muscle are Not</h1>
-            
-                    <p>Wipro-HFS Report:100+ CXOs say AI is scaling,value isn't.</p>
-                    <button>Learn More</button>
-             
+            </div>
+
+            <div class="demo">
+                <p>Wipro-HFS Report:100+ CXOs say AI is scaling,value isn't.</p>
+                <button>Learn More</button>
             </div>
         </div>
         <div class="container2">
             <div class="detalis">
                 <h1>Customer </h1>
                 <h1>Success Stories</h1>
+
+            </div>
+            <div class="demo">
                 <p>How Wipro uses consulting-led, AI powered Strategies to help customers realize their ambitions.</p>
                 <button>Learn More</button>
-
-
             </div>
 
         </div>
