@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Product Dashboard</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+    }
+
+    .header {
+        background-color: black;
+        color: white;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header span {
+        margin-left: 20px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+    }
+
+    .nav a:hover {
+        color: rgb(172, 219, 219);
+    }
+
+    .gadgets {
+        background-color: rgb(229, 227, 220);
+        border-radius: 30px;
+        width: 96%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .gadgets button {
+        background-color:black;
+        color:white;
+        padding: 10px;
+        width: 89px;
+        border-radius: 10px;
+    }
+
+    .cards {
+        display: flex;
+        align-items: start;
+        margin: 30px 30px;
+        background-color: white;
+        height: 500px;
+        width: 297px;
+        text-align: center;
+        justify-content: space-between;
+        gap: 20px;
+       
+    }
+    .images{
+       background-color: white; 
+       border-radius: 20px;
+       height: 500px;
+        width: 297px;
+    }
+
+    .images button {
+        background-color: black;
+        padding: 10px;
+        width: 90px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .images button:hover {
+        background-color:wheat;
+    }
+    .im{
+        height: 300px;
+        width:300px;
+        
+    }
+
+    footer {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        margin-bottom: 30px;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="header">
+            <span>ShopFlex</span>
+            <nav class=" nav">
+
+                <a href="">Home </a>
+                <a href="">Product</a>
+                <a href="">Offers</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+
+        <section class="gadgets">
+            <div class="content">
+                <h1>Latest Gadgets Collection</h1><br>
+                <p>Discover premium gadgets with amazing offers.Explore laptops,moblies,smart watches and more</p><br>
+                <button>Shop Now</button>
+            </div>
+
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPNl9TtNadmFrlFp5K6dvC6JuyE2jCFOB2OHEZW3ZISA&s=10"
+                    alt="gadgets" height="400px" width="400px">
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeFSz-8_0cgAa07Uwa9aLo8zdHDHPre05BTKZtpiQWLA&s=10"
+                    alt="Laptop" class="im"><br>
+                <h3>Laptop</h3><br>
+                <p>Powerful performance laptop.</p><br>
+                <p>₹55,0000</p><br>
+                <button>Buy Now</button>
+            </div>
+            <div class="images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT98w7FbqUAUtw8Qedk6OflVv72Em3Rsxyddmiy0hZQaA&s=10"
+                    alt="smartwatch" class="im"><br>
+                <h3>Smartwatch</h3><br>
+                <p>Track your fintness activies</p><br>
+                <p>₹8,999</p><br>
+                <button>Buy Now</button>
+            </div>
+            <div class="images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmMccryxsKq2NDkn_bwm-9WmL9_DRbpsW6snQW4rCKA&s=10"
+                    alt="phone" class="im"><br>
+                <h3>SmartPhone</h3><br>
+                <p>Lastest Android flagship phone</p><br>
+                <p>₹35,000</p><br>
+                <button>Buy Now</button>
+            </div>
+            <div class="images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlfd--LYryl7DiCGj2QNPiOPwY7VMxzzEpIgbSccUcQ&s=10"
+                    alt="headphone" class="im"><br>
+                <h3>HeadPhones</h3><br>
+                <p>premium sound quality</p><br>
+                <p>₹4,999</p><br>
+                <button>Buy Now</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 ShopFlex All Rights Reserved. </p>
+        </footer>
+
+    </main>
+</body>
+
+</html>
