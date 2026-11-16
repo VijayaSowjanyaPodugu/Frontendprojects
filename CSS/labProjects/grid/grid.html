@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer -CSS grid </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        background-color: black;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+    }
+
+    .header {
+        flex-grow: 2;
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+
+    }
+
+    .navigation {
+        flex-grow: 1;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    button{
+        padding: 10px;
+        width:90px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .tittle{
+        background-color: blue;
+        color:white;
+        text-align: center;
+        height: 130px;
+        padding-top:20px;
+    }
+    .image{
+        height: 200px;
+        width:200px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+  article{
+   
+    display:grid;
+    grid-template-columns: ;
+
+  }
+</style>
+
+<body>
+    <main>
+        <nav>
+            <section class="header">
+                <h1>TravelX</h1>
+            </section>
+            <section class="navigation">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">Destination</a></li>
+                    <li> <a href="">Packages</a></li>
+                    <li> <a href="">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+        <section class="tittle">
+            <h1>Explore The world 🌍</h1>
+            <p>Discover amazing destination and create unforgrttable memories.</p>
+            <button>Book Now</button>
+        </section>
+
+
+
+       <article>
+        <div class="paris"></div>
+        <div></div>
+        <div></div>
+        <div class="Tokoyo"></div>
+        <div></div>
+        <div class="switzerland"></div>
+        <div></div>
+       </article>
+
+    </main>
+</body>
+
+</html>
