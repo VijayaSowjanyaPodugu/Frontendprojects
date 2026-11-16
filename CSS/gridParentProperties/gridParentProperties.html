@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Parent Properties</title>
+</head>
+<style>
+    article {
+        border: solid;
+        color: white;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 200px 190px 130px 200px;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-columns: repeat(4, 200px);
+        grid-template-columns: 1fr 2fr 1fr 3fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+
+
+
+        grid-template-rows: 200px 190px 130px 200px;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: 1fr 2fr 1fr 3fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+
+
+    }
+</style>
+
+<body>
+    <main>
+        <article style="background-color:red">1</article>
+        <article style="background-color:green">2</article>
+        <article style="background-color:gray">3</article>
+        <article style="background-color:blue">4</article>
+        <article style="background-color:pink">5</article>
+        <article style="background-color:yellow">6</article>
+        <article style="background-color:orange">7</article>
+        <article style="background-color:violet">8</article>
+        <article style="background-color:black">9</article>
+    </main>
+</body>
+
+</html>
