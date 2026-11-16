@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>displayFlex</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* display : flex */
+    /* nav{
+        display: flex;
+        height: 70px;
+        width: 100%;
+        border-bottom: 1px solid red;
+    }
+    section{
+        width:40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width:90%;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+
+    }
+    a:hover{
+        color:red;
+    } */
+
+
+
+
+    
+    /* flex properites */
+    nav {
+        height: 70px;
+        display: flex;
+        border-bottom: 1px solid gray;
+
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo {
+        flex-grow: 1;
+        /* flex-basis: 15%; */
+    }
+
+    #navigation {
+        flex-grow: 3;
+        /* flex-direction: 65%; */
+    }
+
+    #profile {
+        flex-grow: 2;
+        /* flex-basis: 20%; */
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        width:90%;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size:20px;
+        font-weight: 500px;
+
+    }
+</style>
+
+<body>
+    <main>
+        <nav>
+            <section id="logo">
+                <!-- <img src="" alt="logo" height="70px" width="70px"> -->
+                <p>Logo</p>
+            </section>
+
+            <section id="navigation">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">service</a></li>
+                </ul>
+            </section>
+
+            <section id="profile">
+                <ul>
+                    <li><a href="">Login </a></li>
+                    <li><a href="">sign in</a></li>
+                    <li><a href="">Cart</a></li>
+                </ul>
+            </section>
+
+
+        </nav>
+    </main>
+</body>
+
+</html>
