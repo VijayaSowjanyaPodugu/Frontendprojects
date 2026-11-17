@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main {
+        border: 2px solid;
+        height: 500px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+
+    }
+
+    article {
+        font-size: 50px;
+        border: 4px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #article1 {
+        grid-area: 1/1/4/3;
+        background-color: gray;
+    }
+
+    #article2 {
+        grid-area:1/3/4/5;
+     
+        background-color: gray;
+    }
+
+    #article3 {
+        grid-area:1/5/3/7;
+        background-color: gray;
+
+
+    }
+
+    #article4 {
+        grid-area:3/5/5/7;
+   
+        background-color: gray;
+    }
+
+    #article5 {
+      grid-area: 5/5/7/7;
+        background-color: gray;
+    }
+
+    #article6 {
+       grid-area:4/1/7/5;
+        background-color: gray;
+    }
+    
+</style>
+
+<body>
+    <main>
+        <article id="article1">1</article>
+        <article id="article2">2</article>
+        <article id="article3">3</article>
+        <article id="article4">4</article>
+        <article id="article5">5</article>
+        <article id="article6">6</article>
+       
+    </main>
+</body>
+
+</html>

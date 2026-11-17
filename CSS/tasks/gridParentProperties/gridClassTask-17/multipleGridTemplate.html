@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        padding: 30px;
+    }
+
+    section {
+        border: 2px solid black;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    
+
+    .article1 {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .article1 div{
+        border: 2px solid white;
+        height: 67px;
+        background-color: gray;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .div2 {
+        grid-column: 2/4;
+    }
+
+    .div3 {
+     
+        grid-column: 1/3;
+    }
+
+    .div6 {
+       
+        grid-column: 2/4;
+    }
+
+
+
+
+    .article2 {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .article2 div{
+        border: 2px solid white;
+        height: 67px;
+        background-color: gray;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .div8{
+        grid-area: 1/2/3/3;
+    }
+
+    .div10 {
+    
+        grid-area: 2/1/4/2;
+    }
+
+    .div12{
+     
+        grid-area: 2/3/4/4;
+    }
+
+
+
+</style>
+
+<body>
+    <main>
+        <section>
+            <article class="article1">
+                <div class="div1">1</div>
+                <div class="div2">2</div>
+                <div class="div3">3</div>
+                <div class="div4">4</div>
+                <div class="div5">5</div>
+                <div class="div6">6</div>
+            </article>
+        </section>
+
+
+        <section>
+            <article class="article2">
+                <div class="div7">1</div>
+                <div class="div8">2</div>
+                <div class="div9">3</div>
+                <div class="div10">4</div>
+                <div class="div11">5</div>
+                <div class="div12">6</div>
+            </article>
+        </section>
+
+
+        <section>3</section>
+        <section>4</section>
+        <section>5</section>
+        <section>6</section>
+        <section>7</section>
+        <section>8</section>
+        <section>9</section>
+        <section>10</section>
+        <section>11</section>
+        <section>12</section>
+        <section>13</section>
+        <section>14</section>
+        <section>15</section>
+        <section>16</section>
+        <section>17</section>
+        <section>18</section>
+        <section>19</section>
+        <section>20</section>
+        <section>21</section>
+        <section>22</section>
+        <section>23</section>
+        <section>24</section>
+    </main>
+</body>
+
+</html>

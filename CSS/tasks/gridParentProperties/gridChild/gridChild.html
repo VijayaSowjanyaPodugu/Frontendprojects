@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridChild</title>
+</head>
+<style>
+    main {
+        border: 2px solid black;
+        height: 500px;
+        width: 500px;
+        /* height:100vh; (for full srceen give heigth in vh format and remove the width then its works) */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    article {
+        font-size: 50px;
+        border: solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #article1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: red;
+    }
+
+    #article2 {
+        grid-row: 1/3;
+        background-color: green;
+        grid-column:3/4;
+    }
+
+    #article3 {
+     grid-row:2/4;
+        background-color: blue;
+    }
+    #article4{
+        grid-area:3/2/4/4;
+        background-color:hotpink;
+    }
+    #article5{
+        background-color:yellow;
+    }
+</style>
+
+<body>
+    <main>
+        <article id="article1">1</article>
+        <article id="article2">2</article>
+        <article id="article3">3</article>
+        <article id="article4">4</article>
+        <article id="article5">5</article>
+
+    </main>
+</body>
+
+</html>
