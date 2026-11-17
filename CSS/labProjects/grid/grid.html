@@ -44,32 +44,81 @@
         color: white;
         font-size: 20px;
     }
-    button{
+
+    button {
         padding: 10px;
-        width:90px;
+        width: 90px;
         border-radius: 10px;
         background-color: white;
     }
-    .tittle{
+
+    .tittle {
         background-color: blue;
-        color:white;
+        color: white;
         text-align: center;
-        height: 130px;
-        padding-top:20px;
+     
+        padding: 20px;
     }
-    .image{
-        height: 200px;
-        width:200px;
-        display:grid;
-        grid-template-columns: repeat(3,1fr);
+
+    .tittle h1{
+        margin-bottom: 10px;
+    }
+
+    .tittle p{
+        margin-bottom: 10px;
+    }
+
+    .photos {
+        padding: 10px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        gap: 20px;
 
     }
-  article{
-   
-    display:grid;
-    grid-template-columns: ;
 
-  }
+    .photos div{
+        border: 2px solid black;
+        border-radius: 10px;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Ss9Y69trDejUc2Gmy1jTbOJYNA-Of_5OO-GEk4SbngmQtqDgjj38eq4&s=10");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .photos div span
+    {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .paris
+    {
+        grid-column: 1/3;
+    }
+    .Tokyo
+    {
+        grid-row: 2/4;
+    }
+
+    .switzerland
+    {
+        grid-column: 3/5;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        color:white;
+        font-size: 20px;
+        padding:10px;
+    }
 </style>
 
 <body>
@@ -95,15 +144,20 @@
 
 
 
-       <article>
-        <div class="paris"></div>
-        <div></div>
-        <div></div>
-        <div class="Tokoyo"></div>
-        <div></div>
-        <div class="switzerland"></div>
-        <div></div>
-       </article>
+        <div class="photos">
+            <div class="paris"><span>Paris</span></div>
+            <div class="Dubai"><span>Dubai</span></div>
+            <div><span>London</span></div>
+            <div class="Tokyo"><span>Tokyo</span></div>
+            <div><span>Singapore</span></div>
+            <div ><span>Maldivs</span></div>
+            <div class="switzerland"><span>switzerland</span></div>
+       
+        </div>
+
+        <footer>
+            <section>&copy; 2026 TravelX</section>
+        </footer>
 
     </main>
 </body>
