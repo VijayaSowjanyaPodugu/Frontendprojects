@@ -6,101 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    main {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        column-gap: 10px;
-        row-gap: 10px;
-        padding: 30px;
-    }
-
-    section {
-        border: 2px solid black;
-        width: 200px;
-        height: 200px;
-    }
+<link rel="stylesheet" href="multipleGridTemplate.css">
 
 
-
-    
-
-    .article1 {
-        color: white;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-
-    .article1 div{
-        border: 2px solid white;
-        height: 67px;
-        background-color: gray;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
-
-    .div2 {
-        grid-column: 2/4;
-    }
-
-    .div3 {
-     
-        grid-column: 1/3;
-    }
-
-    .div6 {
-       
-        grid-column: 2/4;
-    }
-
-
-
-
-    .article2 {
-        color: white;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-
-    .article2 div{
-        border: 2px solid white;
-        height: 67px;
-        background-color: gray;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
-
-    .div8{
-        grid-area: 1/2/3/3;
-    }
-
-    .div10 {
-    
-        grid-area: 2/1/4/2;
-    }
-
-    .div12{
-     
-        grid-area: 2/3/4/4;
-    }
-
-
-
-</style>
 
 <body>
     <main>
@@ -128,28 +36,334 @@
         </section>
 
 
-        <section>3</section>
-        <section>4</section>
-        <section>5</section>
-        <section>6</section>
-        <section>7</section>
-        <section>8</section>
-        <section>9</section>
-        <section>10</section>
-        <section>11</section>
-        <section>12</section>
-        <section>13</section>
-        <section>14</section>
-        <section>15</section>
-        <section>16</section>
-        <section>17</section>
-        <section>18</section>
-        <section>19</section>
-        <section>20</section>
-        <section>21</section>
-        <section>22</section>
-        <section>23</section>
-        <section>24</section>
+
+
+        <section>
+            <article class="article3">
+                <div class="div13">1</div>
+                <div class="div14">2</div>
+                <div class="div15">3</div>
+                <div class="div16">4</div>
+                <div class="div17">5</div>
+                <div class="div18">6</div>
+
+            </article>
+        </section>
+
+
+
+        <section>
+            <article class="article4">
+                <div class="div19">1</div>
+                <div class="div20">2</div>
+                <div class="div21">3</div>
+                <div class="div22">4</div>
+                <div class="div23">5</div>
+                <div class="div24">6</div>
+                <div class="div25">7</div>
+                <div class="div26">8</div>
+                <div class="div27">9</div>
+                <div class="div28">10</div>
+                <div class="div29">11</div>
+
+            </article>
+        </section>
+
+
+        <section>
+            <article class="article5">
+                <div class="div27">1</div>
+                <div class="div28">2</div>
+                <div class="div29">3</div>
+                <div class="div30">4</div>
+                <div class="div32">5</div>
+                <div class="div33">6</div>
+                <div class="div34">7</div>
+                <div class="div35">8</div>
+                <div class="div36">9</div>
+                <div class="div37">10</div>
+        </section>
+
+
+        <section>
+            <article class="article6">
+                <div class="div38">1</div>
+                <div class="div39">2</div>
+                <div class="div40">3</div>
+                <div class="div41">4</div>
+                <div class="div42">5</div>
+                <div class="div43">6</div>
+                <div class="div44">7</div>
+        </section>
+
+        <section>
+            <article class="article7">
+                <div class="div45">1</div>
+                <div class="div46">2</div>
+                <div class="div47">3</div>
+                <div class="div48">4</div>
+                <div class="div49">5</div>
+                <div class="div50">6</div>
+        </section>
+
+        <section>
+            <article class="article8">
+                <div class="div51">1</div>
+                <div class="div52">2</div>
+                <div class="div53">3</div>
+                <div class="div54">4</div>
+                <div class="div56">5</div>
+                <div class="div57">6</div>
+        </section>
+
+        <section>
+            <article class="article9">
+                <div class="div58">1</div>
+                <div class="div59">2</div>
+                <div class="div60">3</div>
+                <div class="div61">4</div>
+                <div class="div62">5</div>
+                <div class="div63">6</div>
+        </section>
+        <section>
+            <article class="article10">
+                <div class="div64">1</div>
+                <div class="div65">2</div>
+                <div class="div66">3</div>
+                <div class="div67">4</div>
+                <div class="div68">5</div>
+                <div class="div69">6</div>
+                <div class="div70">7</div>
+                <div class="div71">8</div>
+                <div class="div72">9</div>
+                <div class="div73">10</div>
+                <div class="div74">11</div>
+
+        </section>
+        <section>
+            <article class="article11">
+                <div class="div75">1</div>
+                <div class="div76">2</div>
+                <div class="div77">3</div>
+                <div class="div78">4</div>
+                <div class="div79">5</div>
+                <div class="div80">6</div>
+                <div class="div81">7</div>
+                <div class="div82">8</div>
+                <div class="div83">9</div>
+                <div class="div84">10</div>
+                <div class="div85">11</div>
+                <div class="div86">12</div>
+
+
+        </section>
+
+
+        <section>
+            <article class="article12">
+                <div class="div87">1</div>
+                <div class="div88">2</div>
+                <div class="div89">3</div>
+                <div class="div90">4</div>
+                <div class="div91">5</div>
+                <div class="div92">6</div>
+                <div class="div93">7</div>
+                <div class="div94">8</div>
+                <div class="div95">9</div>
+        </section>
+
+
+
+        <section>
+            <article class="article13">
+                <div class="div96">1</div>
+                <div class="div97">2</div>
+                <div class="div98">3</div>
+                <div class="div99">4</div>
+                <div class="div100">5</div>
+                <div class="div101">6</div>
+
+        </section>
+
+        <section>
+            <article class="article14">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+
+        </section>
+
+        <section>
+            <article class="article15">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+
+        </section>
+
+
+        <section>
+            <article class="article16">
+                <div class="div102">1</div>
+                <div class="div103">2</div>
+                <div class="div104">3</div>
+                <div class="div105">4</div>
+                <div class="div106">5</div>
+                <div class="div107">6</div>
+                <div class="div108">7</div>
+                <div class="div109">8</div>
+                <div class="div110">9</div>
+                <div class="div111">10</div>
+                <div class="div112">11</div>
+                <div class="div113">12</div>
+
+        </section>
+
+        <section>
+            <article class="article17">
+                <div class="div114">1</div>
+                <div class="div115">2</div>
+                <div class="div116">3</div>
+                <div class="div117">4</div>
+                <div class="div118">5</div>
+                <div class="div119">6</div>
+                <div class="div120">7</div>
+                <div class="div121">8</div>
+                <div class="div122">9</div>
+                <div class="div123">10</div>
+                <div class="div124">11</div>
+                <div class="div125">12</div>
+                <div class="div126">13</div>
+                <div class="div127">14</div>
+
+
+        </section>
+
+        <section>
+            <article class="article18">
+                <div class="div128">1</div>
+                <div class="div129">2</div>
+                <div class="div130">3</div>
+                <div class="div131">4</div>
+                <div class="div132">5</div>
+                <div class="div133">6</div>
+                <div class="div134">7</div>
+
+        </section>
+
+        <section>
+            <article class="article19">
+                <div class="div135">1</div>
+                <div class="div136">2</div>
+                <div class="div137">3</div>
+                <div class="div138">4</div>
+                <div class="div139">5</div>
+                <div class="div140">6</div>
+                <div class="div141">7</div>
+                <div class="div142">8</div>
+
+        </section>
+
+
+
+        <section>
+            <article class="article20">
+                <div class="div143">1</div>
+                <div class="div144">2</div>
+                <div class="div145">3</div>
+                <div class="div146">4</div>
+                <div class="div147">5</div>
+                <div class="div148">6</div>
+                <div class="div149">7</div>
+        </section>
+
+        <section>
+            <article class="article21">
+                <div class="div150">1</div>
+                <div class="div151">2</div>
+                <div class="div152">3</div>
+                <div class="div153">4</div>
+                <div class="div154">5</div>
+                <div class="div155">6</div>
+                <div class="div156">7</div>
+                <div class="div157">8</div>
+
+        </section>
+
+
+
+
+        <section>
+            <article class="article22">
+                <div class="div158">1</div>
+                <div class="div159">2</div>
+                <div class="div160">3</div>
+                <div class="div161">4</div>
+                <div class="div162">5</div>
+                <div class="div163">6</div>
+                <div class="div164">7</div>
+                <div class="div165">8</div>
+                <div class="div166">9</div>
+                <div class="div167">10</div>
+                <div class="div168">11</div>
+                <div class="div169">12</div>
+        </section>
+
+
+
+
+        <section>
+            <article class="article23">
+                <div class="div170">1</div>
+                <div class="div171">2</div>
+                <div class="div172">3</div>
+                <div class="div173">4</div>
+                <div class="div174">5</div>
+                <div class="div175">6</div>
+                <div class="div176">7</div>
+                <div class="div177">8</div>
+                <div class="div178">9</div>
+                <div class="div179">10</div>
+                <div class="div180">11</div>
+                <div class="div181">12</div>
+        </section>
+
+
+ <section>
+            <article class="article24">
+                <div class="div182">1</div>
+                <div class="div183">2</div>
+                <div class="div184">3</div>
+                <div class="div185">4</div>
+                <div class="div186">5</div>
+                <div class="div187">6</div>
+                <div class="div188">7</div>
+                <div class="div189">8</div>
+                <div class="div190">9</div>
+               
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+       
     </main>
 </body>
 
