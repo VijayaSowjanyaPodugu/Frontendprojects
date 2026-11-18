@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main {
+        border: 2px solid black;
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        margin-top: 60px;
+        position: relative;
+        
+    }
+
+    section {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+         transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: ease;
+    }
+    /* .sec1{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .sec2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+}
+.sec3{
+    position: absolute;
+        bottom: 0;
+        right: 0;
+}
+.sec4{
+    position: absolute;
+        bottom: 0;
+        right: 0;
+} */
+
+    main:hover .sec1 {
+    
+        transform: translate(-400px, -400px);
+    }
+
+    main:hover .sec2 {
+        
+        transform: translateX(-400px);
+    }
+
+    main:hover .sec3 {
+      
+        transform: translateY(-400px);
+    }
+
+    main:hover .sec4{
+ 
+     transform: translate(0,0);
+    }
+</style>
+
+<body>
+    <main>
+        <section class="sec1"></section>
+        <section class="sec2"></section>
+        <section class="sec3"></section>
+        <section class="sec4"></section>
+    </main>
+</body>
+
+</html>
