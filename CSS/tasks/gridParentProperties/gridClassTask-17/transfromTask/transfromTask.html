@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main {
+        border: 2px solid purple;
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: rgb(249, 207, 214);
+        transition: transform;
+
+
+    }
+
+    section {
+        border: 2px solid black;
+        height: 100px;
+        width: 10px;
+        /* border-radius: 10px; */
+        transition-property: all;
+        transition-duration: 5s;
+        transition-timing-function: ease;
+
+
+    }
+
+    #s1 {
+        position: absolute;
+        bottom: 340px;
+        transform: skewX(-25deg);
+        left: 30px;
+        background-color:crimson;
+
+
+
+    }
+
+    #s2 {
+        position: absolute;
+        bottom: 340px;
+        transform: skewX(25deg);
+        left: 80px;
+        background-color: crimson;
+
+    }
+
+    #s3 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 10px;
+        background-color: cyan;
+    }
+
+    #s4 {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 15px;
+        bottom: 300px;
+        background-color: white;
+    }
+
+    #s5 {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 80px;
+        bottom: 300px;
+        background-color: white;
+    }
+
+    #s6 {
+        height: 40px;
+        width: 35px;
+        position: absolute;
+        left: 40px;
+        bottom: 250px;
+        background-color: brown;
+    }
+ 
+    main:hover #s1 {
+        transform: translateX(-50px);
+        transform: skewX(-35deg);
+        position: absolute;
+        left: 250px;
+        bottom: 240px;
+        border-radius: 10px;
+        width:20px;
+        background-color: purple;
+
+    }
+
+    main:hover #s2 {
+        transform: translateX(50px);
+        transform: skewX(35deg);
+        position: absolute;
+        left: 180px;
+        bottom: 240px;
+        border-radius: 10px;
+        width:20px;
+        background-color: purple;
+    }
+
+    main:hover #s3 {
+        transform: translateX(300px);
+
+        margin-left: 20px;
+        border-radius: 100%;
+        height: 150px;
+        width: 150px;
+        background-color: yellow;
+        position: absolute;
+    }
+
+    main:hover #s4 {
+        transform: translateX(300px);
+
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+        background-color: black;
+        position: absolute;
+        left: 130px;
+        top: 270px;
+    }
+
+    main:hover #s5 {
+        transform: translateX(300px);
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+        background-color: black;
+        position: absolute;
+        left: 60px;
+        top: 270px;
+    }
+
+    main:hover #s6 {
+        transform: translateX(300px);
+        border: 2px solid;
+        height: 10px;
+        width: 70px;
+        background-color: black;
+        position: absolute;
+        left: 70px;
+        top: 320px;
+        border-radius: 5px;
+    }
+</style>
+
+
+
+
+<body>
+    <main>
+        <section id="s1"></section>
+        <section id="s2"></section>
+        <section id="s3"></section>
+        <section id="s4"></section>
+        <section id="s5"></section>
+        <section id="s6"></section>
+    </main>
+</body>
+
+</html>
