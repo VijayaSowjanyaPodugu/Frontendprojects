@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    main {
+        border: 2px solid black;
+        height: 600px;
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;
+       
+
+    }
+
+    #s1 {
+        display: flex;
+        gap: 120px;
+        padding: 50px;
+         position: relative;
+    }
+
+
+    #s1 article {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+       
+        
+    }
+
+    #a1 {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+        animation-name: line1;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 5s;
+    }
+
+    @keyframes line1 {
+        from {}
+
+        to {
+            transform: translateY(-2px);
+            height: 200px;
+          
+        }
+    }
+
+    #a2 {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+        animation-name: line2;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+    }
+
+    @keyframes line {
+        from {}
+
+        to {
+            transform: translateY(-2px);
+            height: 70px;
+        }
+    }
+
+    #a3 {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+        animation-name: line3;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+    }
+
+    @keyframes line {
+        from {}
+
+        to {
+            transform: translateY(-2px);
+            height: 70px;
+        }
+    }
+
+    #a4 {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+        animation-name: line4;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+    }
+
+    #a5 {
+        border-left: 2px solid black;
+        height: 400px;
+        padding: 10px;
+        margin-top: -50px;
+        animation-name: line5;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+    }
+
+    @keyframes line {
+        from {}
+
+        to {
+            transform: translateY(-2px);
+            height: 70px;
+        }
+    }
+
+    @keyframes line {
+        from {}
+
+        to {
+            transform: translateY(-2px);
+            height: 70px;
+        }
+    }
+
+   
+
+
+    #s2 {
+        display: flex;
+        gap: 70px;
+        margin-left: 11px;
+        margin-top: -50px;
+    }
+
+
+    #s2 article {
+        border: 2px solid black;
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+        background-color: deeppink;
+        animation-name: circle;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.4s;
+    }
+
+    @keyframes circle {
+        from {}
+
+        to {
+            background-color: rgb(240, 208, 224);
+            transform: rotateY(360deg);
+        }
+
+
+    }
+
+
+    #a6{
+        border: 2px solid black;
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+        background-color: deeppink;
+        animation-name: circle1;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-delay: 5s;
+    }
+
+    @keyframes circle1 {
+        from {
+            border-radius: 100%;
+        background-color: deeppink;
+        }
+
+        to {
+            
+            
+            transform: translateY(600px);
+           
+        
+        }
+    }
+</style>
+
+<body>
+    <main>
+        <section id="s1">
+            <article id="a1"></article>
+            <article id="a2"></article>
+            <article id="a3"></article>
+            <article id="a4"></article>
+            <article id="a5"></article>
+        </section>
+
+        <section id="s2">
+            <article id="a6"></article>
+            <article id="a7"></article>
+            <article id="a8"></article>
+            <article id="a9"></article>
+            <article id="a10"></article>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
